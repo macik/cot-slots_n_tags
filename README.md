@@ -11,6 +11,9 @@ tags called «menu slots» can be altered via administration web interface. As a
 menu slots allow to use only simple html text. 
 With this extension you can use common TPL tags and function calls like in TPL files.
 
+![Slots_n_tags screenshot](http://macik.github.com/cot-slots_n_tags/images/tagsinslots01.png)
+![Slots_n_tags screenshot](http://macik.github.com/cot-slots_n_tags/images/tagsinslots02.png)
+
 Features
 --------
 
