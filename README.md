@@ -28,7 +28,8 @@ Version info
 
 Plugin must works out from the box. But as it relies on `CoTemplate->compile()` function
 it worsk **only from Cotonti v0.9.11**.
-
+Some of lang file strings or resource strings may be undefined in menuslots if they init after 
+`global` hook.
 
 ### How extension works
 
