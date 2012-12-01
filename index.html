@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Cot-slots n tags by macik</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Cot-slots n tags</h1>
+        <p class="header">Slots and Tags extension for Cotonti</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/macik/cot-slots_n_tags/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/macik/cot-slots_n_tags/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/macik/cot-slots_n_tags">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/macik">macik</a></p>
+
+
+      </header>
+      <section>
+        <h1>Slots and Tags</h1>
+
+<p>Plugin for Cotonti CMF. It allow to use tpl TAGs and function calls in menuslots.</p>
+
+<h2>Description</h2>
+
+<p>Cotonti have a predefined custom tags that admin can use in templates. Content of these 
+tags called «menu slots» can be altered via administration web interface. As a default, 
+menu slots allow to use only simple html text. 
+With this extension you can use common TPL tags and function calls like in TPL files.</p>
+
+<h2>Features</h2>
+
+<ul>
+<li>Parses text of menu slot as a tpl file</li>
+<li>Allow to use tags and Unified input field for time selections</li>
+<li>Allow to use function calls</li>
+</ul><h2>Requirements</h2>
+
+<p>Works starting from <code>Cotonti Siena v0.9.11</code>.</p>
+
+<h2>Version info</h2>
+
+<p>Plugin must works out from the box. But as it relies on <code>CoTemplate-&gt;compile()</code> function
+it worsk <strong>only from Cotonti v0.9.11</strong>.
+Some of lang file strings or resource strings may be undefined in menuslots if they init after 
+<code>global</code> hook.</p>
+
+<h3>How extension works</h3>
+
+<p>Runs on <code>global</code> hook. And parses all menu slots with <code>CoTemplate-&gt;compile()</code>.</p>
+
+<h2>Install</h2>
+
+<ul>
+<li>Unpack, copy files to plugins folder of your site.</li>
+<li>Install via Admin → Extensions menu (<code>Administration panel → Extensions</code>)</li>
+</ul><h2>References</h2>
+
+<ul>
+<li>
+<a href="http://Cotonti.com/">Cotonti.com</a> -- Home of Cotonti CMF</li>
+</ul>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		          <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-25627697-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
