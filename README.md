@@ -1,7 +1,7 @@
 Slots and Tags
 ==============
 
-Plugin for Cotonti CMF. It allow to use tpl TAGs and function calls in menuslots.
+Plugin for Cotonti CMF. It allows to use tpl TAGs and function calls in menu slots.
 
 Description
 -----------
