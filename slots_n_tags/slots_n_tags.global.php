@@ -1,4 +1,4 @@
-<?PHP
+<?php
 /* ====================
 [BEGIN_COT_EXT]
 Hooks=global
@@ -10,7 +10,7 @@ Hooks=global
  *
  * @package slots_n_tags
  * @author Andrey Matsovkin
- * @copyright Copyright (c) 2011-2012
+ * @copyright Copyright (c) 2011-2013
  * @license Distributed under BSD license.
  */
 
@@ -37,4 +37,4 @@ if (class_exists('XTemplate') && $cfg['plugin'][$plug_name]['enabled'] && ($maj 
 	unset($menu_slots);
 }
 
-?>
+

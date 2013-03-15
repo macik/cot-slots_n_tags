@@ -1,4 +1,4 @@
-<?PHP
+<?php
 /* ====================
 [BEGIN_COT_EXT]
 Hooks=standalone
@@ -11,7 +11,7 @@ Tags=example.tpl:
  *
  * @package slots_n_tags
  * @author Andrey Matsovkin
- * @copyright Copyright (c) 2011-2012
+ * @copyright Copyright (c) 2011-2013
  * @license Distributed under BSD license.
  */
 
@@ -32,4 +32,3 @@ $base_path = $cfg['plugins_dir']."/$plug_name";
 $plugin_body .= 'Plugin installed (file slots_n_tags).<br/>';
 
 
-?>
