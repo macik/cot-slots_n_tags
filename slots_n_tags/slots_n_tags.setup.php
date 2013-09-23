@@ -4,8 +4,8 @@
 Code=slots_n_tags
 Name=Slots and Tags
 Description=Allow users to use TPL tags and functions within menu slots
-Version=0.9.0
-Date=2012-Dec-01
+Version=1.0.1
+Date=2013-Sep-22
 Author=Andrey Matsovkin
 Copyright=Copyright (c) 2011-2012, Andrey Matsovkin
 Notes=If your enjoy my plugin please consider donating to help support future developments. Thanks! mailto:macik.spb@gmail.com
@@ -29,5 +29,5 @@ enabled=10:radio:0,1:1:Enable plugin
  * @license Distributed under BSD license
 */
 
-if (!defined('COT_CODE')) { die('Wrong URL ('.array_pop(explode("\\",__FILE__)).').'); }
+if (!defined('COT_CODE')) { die('Wrong URL.'); }
 
